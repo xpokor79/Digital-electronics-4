@@ -32,9 +32,9 @@
 
 | **DDRB** | **PORTB** | **Direction** | **Internal pull-up resistor** | **Description** |
 | :-:| :-: | :-: | :-: | :-- |
-| 0 | 0 | input | no | Tri-state, high-impedance |
+| 0 | 0 | input | no | Tri-state (Hi-Z) |
 | 0 | 1 | input | yes | PBx will source current if ext.pulled low.|
-| 0 | 1 | input | no | Tri-state, high-impedance |
+| 0 | 1 | input | no | Tri-state (Hi-Z) |
 | 1 | 0 | output | no | Output low (sink) |
 | 1 | 1 | output | no | Output high (source) |
 
