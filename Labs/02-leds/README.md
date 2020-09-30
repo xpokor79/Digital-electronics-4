@@ -27,8 +27,8 @@
 
 | **PORTB** | **Description** |
 | :-: | :-- |
-| 0 | Output low value |
-| 1 | Output HIGH value|
+| 0 | Output HIGH |
+| 1 | Output HIGH |
 
 | **DDRB** | **PORTB** | **PUD (in MCUCR)**| **Direction** | **Internal pull-up resistor** | **Description** |
 | :-:| :-: | :-: | :-: | :-: | :-- |
