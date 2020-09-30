@@ -3,4 +3,4 @@
 ## Preparation TASK
 ### LEDs wiring
 
-![GitHub Logo](/pictures/LEDs wiring.png)
+![GitHub Logo](Labs/02-leds/pictures/LEDs wiring.png)
