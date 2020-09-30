@@ -1,4 +1,4 @@
 # Lab 02
 
-Preparation TASK
+## Preparation TASK
 LEDs wiring
