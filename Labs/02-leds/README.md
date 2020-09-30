@@ -3,4 +3,4 @@
 ## Preparation TASK
 ### LEDs wiring
 
-(Labs/02-leds/pictures/LEDs wiring.png)
+img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/02-leds/pictures/LEDs%20wiring.png"
