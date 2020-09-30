@@ -1,5 +1,6 @@
 # Lab 02
 
 ## Preparation TASK
-LEDs wiring
+### LEDs wiring
+
 ![GitHub Logo](/pictures/LEDs wiring.png)
