@@ -1,1 +1,4 @@
-# Digital-electronics-2
+# Lab 02
+
+## Preparation TASK
+LEDs wiring
