@@ -4,3 +4,7 @@
 ### LEDs wiring
 
 <img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/02-leds/pictures/LEDs%20wiring.png">
+
+### LEDs wiring
+
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/02-leds/pictures/Pushbuttons%20wiring.png">
