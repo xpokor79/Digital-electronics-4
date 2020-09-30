@@ -17,3 +17,24 @@
 | :-: | :-: | :-: | :-: | :-: |
 | red | 5&nbsp;V | 20&nbsp;mA | 1,7&nbsp;V | 660&nbsp;&Omega; |
 | blue | 5&nbsp;V | 20&nbsp;mA | 3&nbsp;V| 100&nbsp;&Omega; |
+
+### Lab
+
+| **DDRB** | **Description** |
+| :-: | :-- |
+| 0 | Input pin |
+| 1 | Output pin |
+
+| **PORTB** | **Description** |
+| :-: | :-- |
+| 0 | Output low value |
+| 1 | Output HIGH value|
+
+| **DDRB** | **PORTB** | **PUD (in MCUCR)**| **Direction** | **Internal pull-up resistor** | **Description** |
+| :-:| :-: | :-: | :-: | :-: | :-- |
+| 0 | 0 |X| input | no | Tri-state, high-impedance |
+| 0 | 1 |0| input | yes | PBx will source current if ext.pulled low.|
+| 0 | 1 |1| input | no | Tri-state, high-impedance |
+| 1 | 0 |X| output | no | Output low (sink) |
+| 1 | 1 |1| output | no | Output high (source) |
+
