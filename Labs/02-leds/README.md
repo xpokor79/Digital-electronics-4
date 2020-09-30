@@ -47,8 +47,8 @@
 |   | 3 | Yes Arduino pin 11,MOSI,PWM |
 |   | 4 | Yes Arduino pin 12,MISO |
 |   | 5 | Yes Arduino pin 13, internal LED, SCK |
-|   | 6 | Yes Arduino pin OSC1,XTAL1, |
-|   | 7 | Yes Arduino pin OSC2,XTAL2, |
+|   | 6 | No Arduino pin OSC1,XTAL1, |
+|   | 7 | No Arduino pin OSC2,XTAL2, |
 | C | 0 | Yes Arduino pin A0(14) |
 |   | 1 | Yes Arduino pin A1(15) |
 |   | 2 | Yes Arduino pin A2(16) |
