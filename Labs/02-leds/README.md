@@ -30,11 +30,11 @@
 | 0 | Output HIGH |
 | 1 | Output HIGH |
 
-| **DDRB** | **PORTB** | **PUD (in MCUCR)**| **Direction** | **Internal pull-up resistor** | **Description** |
+| **DDRB** | **PORTB** | **Direction** | **Internal pull-up resistor** | **Description** |
 | :-:| :-: | :-: | :-: | :-: | :-- |
-| 0 | 0 |X| input | no | Tri-state, high-impedance |
-| 0 | 1 |0| input | yes | PBx will source current if ext.pulled low.|
-| 0 | 1 |1| input | no | Tri-state, high-impedance |
-| 1 | 0 |X| output | no | Output low (sink) |
-| 1 | 1 |1| output | no | Output high (source) |
+| 0 | 0 | input | no | Tri-state, high-impedance |
+| 0 | 1 | input | yes | PBx will source current if ext.pulled low.|
+| 0 | 1 | input | no | Tri-state, high-impedance |
+| 1 | 0 | output | no | Output low (sink) |
+| 1 | 1 | output | no | Output high (source) |
 
