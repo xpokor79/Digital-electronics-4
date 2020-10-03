@@ -56,7 +56,7 @@
 |   | 4 | Yes Arduino pin A4(18),SDA |
 |   | 5 | Yes Arduino pin A5(19),SCL |
 |   | 6 | Yes Arduino pin RST  |
-|   | 7 | Input only  |
+|   | 7 | not conected  |
 | D | 0 | Yes Arduino pin 0 RXD |
 |   | 1 | Yes (Arduino pin 1 TXD |
 |   | 2 | Yes Arduino pin 2 |
