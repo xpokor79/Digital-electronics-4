@@ -32,15 +32,15 @@
 
 | **DDRB** | **PORTB** | **Direction** | **Internal pull-up resistor** | **Description** |
 | :-:| :-: | :-: | :-: | :-- |
-| 0 | 0 | input | no | Tri-state, high-impedance |
+| 0 | 0 | input | no | Tri-state (Hi-Z) |
 | 0 | 1 | input | yes | PBx will source current if ext.pulled low.|
-| 0 | 1 | input | no | Tri-state, high-impedance |
+| 0 | 1 | input | no | Tri-state (Hi-Z) |
 | 1 | 0 | output | no | Output low (sink) |
 | 1 | 1 | output | no | Output high (source) |
 
 | **Port** | **Pin** | **Input/output usage?** |
 | :-: | :-: | :-- |
-| A | x | Microcontroller ATmega328P does not contain port A |
+| A | x |  ATmega328P does not contain port A |
 | B | 0 | Yes Arduino pin 8,CLKO,ICP1|
 |   | 1 | Yes Arduino pin 9,PWM |
 |   | 2 | Yes Arduino pin 10,SS,PWM |
@@ -56,9 +56,9 @@
 |   | 4 | Yes Arduino pin A4(18),SDA |
 |   | 5 | Yes Arduino pin A5(19),SCL |
 |   | 6 | Yes Arduino pin RST  |
-|   | 7 | Input only  |
-| D | 0 | Yes Arduino pin RXD<-0 |
-|   | 1 | Yes (Arduino pin TXD(1) |
+|   | 7 | not conected  |
+| D | 0 | Yes Arduino pin 0 RXD |
+|   | 1 | Yes (Arduino pin 1 TXD |
 |   | 2 | Yes Arduino pin 2 |
 |   | 3 | Yes Arduino pin 3,PWM |
 |   | 4 | Yes Arduino pin 4 |
