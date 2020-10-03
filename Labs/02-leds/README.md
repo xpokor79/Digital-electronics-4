@@ -40,7 +40,7 @@
 
 | **Port** | **Pin** | **Input/output usage?** |
 | :-: | :-: | :-- |
-| A | x | Microcontroller ATmega328P does not contain port A |
+| A | x |  ATmega328P does not contain port A |
 | B | 0 | Yes Arduino pin 8,CLKO,ICP1|
 |   | 1 | Yes Arduino pin 9,PWM |
 |   | 2 | Yes Arduino pin 10,SS,PWM |
