@@ -57,8 +57,8 @@
 |   | 5 | Yes Arduino pin A5(19),SCL |
 |   | 6 | Yes Arduino pin RST  |
 |   | 7 | Input only  |
-| D | 0 | Yes Arduino pin RXD<-0 |
-|   | 1 | Yes (Arduino pin TXD(1) |
+| D | 0 | Yes Arduino pin 0 RXD |
+|   | 1 | Yes (Arduino pin 1 TXD |
 |   | 2 | Yes Arduino pin 2 |
 |   | 3 | Yes Arduino pin 3,PWM |
 |   | 4 | Yes Arduino pin 4 |
