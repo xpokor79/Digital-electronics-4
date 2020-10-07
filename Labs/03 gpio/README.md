@@ -1,4 +1,4 @@
-# Lab 02
+# Lab 03
 
 ## Preparation TASK
 | **Data type** | **Number of bits** | **Range** | **Description** |
