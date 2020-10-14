@@ -43,3 +43,19 @@
 |  | USART_RX |  |  |
 |  | ADC |  |  |
 |  | TWI |  |  |
+
+
+| **Module** | **Description** | **MCU pin** | **Arduino pin** |
+| :-: | :-: | :-: | :-: |
+| Timer/Counter0 | OC0A |     |    |
+|                | OC0B |     |    |
+| Timer/Counter1 | OC1A |     |    |
+|                | OC1B | PB2 | 10 |
+| Timer/Counter2 | OC2A |     |    |
+|                | OC2B |     |    |
+
+
+   * Normal mode,
+   * Clear Timer on Compare mode,
+   * Fast PWM mode, and
+   * Phase Correct PWM Mode.
