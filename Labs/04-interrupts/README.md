@@ -7,7 +7,7 @@
 | Timer/Counter2 | 8  | 16u|128u|512u|1m|2m|4m|16m |
 
 
-| **Push buttons** | 
+
 | :-: | :-: | 
 | D1 | PB5[13] | 
 | D2 | PB4[12] | 
