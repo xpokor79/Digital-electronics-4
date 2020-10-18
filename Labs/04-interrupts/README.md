@@ -48,9 +48,9 @@
 
 | **Module** | **Description** | **MCU pin** | **Arduino pin** |
 | :-: | :-: | :-: | :-: |
-| Timer/Counter0 | OC0A |     |    |
-|                | OC0B |     |    |
-| Timer/Counter1 | OC1A |     |    |
+| Timer/Counter0 | OC0A | PD6 | 6  |
+|                | OC0B | PB5 | 5  |
+| Timer/Counter1 | OC1A | PB1 | 9  |
 |                | OC1B | PB2 | 10 |
-| Timer/Counter2 | OC2A |     |    |
-|                | OC2B |     |    |
+| Timer/Counter2 | OC2A | PB3 | 11 |
+|                | OC2B | PD3 | 3  |
