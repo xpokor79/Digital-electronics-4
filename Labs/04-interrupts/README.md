@@ -45,17 +45,16 @@
 |  | TWI |  |  |
 
 
-| **Module** | **Description** | **MCU pin** | **Arduino pin** |
-| :-: | :-: | :-: | :-: |
-| Timer/Counter0 | OC0A |     |    |
-|                | OC0B |     |    |
-| Timer/Counter1 | OC1A |     |    |
-|                | OC1B | PB2 | 10 |
-| Timer/Counter2 | OC2A |     |    |
-|                | OC2B |     |    |
-
-
-   * Normal mode,
-   * Clear Timer on Compare mode,
-   * Fast PWM mode, and
-   * Phase Correct PWM Mode.
+| **Program address** | **Source** | **Vector name** | **Description** |
+| :-: | :-- | :-- | :-- |
+| 0x0000 | RESET | -- | Reset of the system |
+| 0x0002 | INT0  | External Interrupt 0 |
+| 0x0004 | INT1 | INT1_vect | External Interrupt Request 1 |
+| 0x0006 | PCINT0 | PCINT0_vect | Pin Change Interrupt Request 0 |
+| 0x0008 | PCINT1 | PCINT1_vect | Pin Change Interrupt Request 1 |
+| 0x000A | PCINT2 | PCINT2_vect | Pin Change Interrupt Request 2 |
+| 0x0012 | TIMER2_OVF | TIMER2_OVF_vect | Timer/Counter2 Overflow |
+| 0x001A | TIMER1_OVF | TIMER1_OVF_vect | Timer/Counter1 Overflow |
+| 0x0020 | TIMER0_OVF | TIMER0_OVF_vect | Timer/Counter0 Overflow |
+| 0x002A | ADC | ADC_vect | ADC Conversion Complete |
+| 0x0030 | TWI | TWI_vect | 2-wire Serial Interface |
