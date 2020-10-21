@@ -23,3 +23,10 @@
   | PD4 [4] | RCLK  |
    
 Shift registr slouží ke zobrazení číslic na více segmentovkách, tak že hodnotu číslice pošle na segmentovku kde se má zobrazit
+
+
+| **Interrupt** | **Vector name** | **Pins** | **Operation** | **I/O register** | **Bit(s)** |
+| :-: | :-: | :-: | :-- | :-: | :-: |
+| Pin Change Interrupt 0 | `PCINT0_vect` | PB[7:0] | Interrupt enable<br>Select pins | PCICR<br>PCMSK0 | PCIE0<br>PCINT[7:0] |
+| Pin Change Interrupt 1 | `PCINT1_vect`|  | Interrupt enable<br>Select pins | <br> | <br> |
+| Pin Change Interrupt 2 | `PCINT2_vect`|  | Interrupt enable<br>Select pins | <br> | <br> |
