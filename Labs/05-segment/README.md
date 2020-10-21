@@ -16,7 +16,8 @@
 * Common Cathode 7-segment display (CC SSD) všech 7 LED má společnou katodu => LED ON HI STATE
 * Common Anode 7-segment display (CA SSD)   všech 7 LED má společnou anodu => LED ON LOW STATE
 
-   :-: | :-: |
+  | PORT | PIN |
+  |:-: | :-: |
   | PB0 [8] | SER |
   | PD7 [7] | SRCLK  | 
   | PD4 [4] | RCLK  |
