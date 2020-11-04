@@ -16,7 +16,7 @@ What is the ASCII table? What are the values for uppercase letters `A` to `Z`, l
    | :-- | :-- | :-- | :-- |
    | `lcd_init` | `LCD_DISP_OFF`<br>`LCD_DISP_ON`<br>`LCD_DISP_ON_CURSOR`<br>`LCD_DISP_ON_CURSOR_BLINK` | Display off&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp; | `lcd_init(LCD_DISP_OFF);`<br>&nbsp;<br>&nbsp;<br>&nbsp; |
    | `lcd_clrscr` |  |Clear display and set cursor to home position.  | `lcd_clrscr();` |
-   | `lcd_gotoxy` | |Set cursor to specified position.  | `lcd_gotoxy(uint8_t x,uint8_t y);`|
+   | `lcd_gotoxy` | <br>x	horizontal position(0: left most position)<br> y	vertical position(0: first line) |Set cursor to specified position.  | `lcd_gotoxy(uint8_t x,uint8_t y);`|
    | `lcd_putc` | | | |
    | `lcd_puts` | | | |
    | `lcd_command` | | | |
