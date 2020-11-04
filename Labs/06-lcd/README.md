@@ -1,32 +1,23 @@
-# Lab 5: Display devices, 7-segment display
+# Lab 6: LCD display
 
-| **Digit** | **A** | **B** | **C** | **D** | **E** | **F** | **G** | **DP** |
-   | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-   | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
-   | 1 | 1  | 0  | 0 | 1 |  1 |  1 | 1  | 1  |
-   | 2 | 0  | 0  | 1  | 0  |  0 | 1  | 0  | 1|
-   | 3 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 1 |
-   | 4 | 1  | 0  |  0 |  1 | 1  | 0  | 0  | 1  |
-   | 5 | 0  |  1 | 0  |  0 | 1  | 0  |  0 | 1  |
-   | 6 |  0 | 1  |  0 |  0 | 0  |  0 |  0 |  1 |
-   | 7 |  0 | 0  | 0  |  1 |  1 | 1 |  1 | 1  |
-   | 8 |  0 | 0  | 0  |  0 | 0  | 0  | 0  |  1 |
-   | 9 |  0 | 0  | 0  | 0  |  1 |  0 | 0  | 1  |
+| **LCD signal(s)** | **AVR pin(s)** | **Description** |
+   | :-: | :-: | :-- |
+   | RS | PB0 | Register selection signal. Selection between Instruction register (RS=0) and Data register (RS=1) |
+   | R/W | GND | read/write mode|
+   | E | PB1 | enable, This load the data into the lcd chip    |
+   | D[3:0] | not concected |  |
+   | D[7:4] | PD[4:7] | 4-bit data |
 
-* Common Cathode 7-segment display (CC SSD) všech 7 LED má společnou katodu => LED ON HI STATE
-* Common Anode 7-segment display (CA SSD)   všech 7 LED má společnou anodu => LED ON LOW STATE
+What is the ASCII table? What are the values for uppercase letters `A` to `Z`, lowercase letters `a` to `z`, and numbers `0` to `9` in this table?
 
-  | PORT | PIN |
-  |:-: | :-: |
-  | PB0 [8] | SER |
-  | PD7 [7] | SRCLK  | 
-  | PD4 [4] | RCLK  |
-   
-Shift registr slouží ke zobrazení číslic na více segmentovkách, tak že hodnotu číslice pošle na segmentovku kde se má zobrazit
+ Jde o kódovou tabulku, písmen anglické abecedy a znaků. A - Z [41:5a]; a - z [61:7a]; 0 - 9[30:39];
 
-
-| **Interrupt** | **Vector name** | **Pins** | **Operation** | **I/O register** | **Bit(s)** |
-| :-: | :-: | :-: | :-- | :-: | :-: |
-| Pin Change Interrupt 0 | `PCINT0_vect` | PB[7:0] | Interrupt enable<br>Select pins | PCICR<br>PCMSK0 | PCIE0<br>PCINT[7:0] |
-| Pin Change Interrupt 1 | `PCINT1_vect`|  | Interrupt enable<br>Select pins | <br> | <br> |
-| Pin Change Interrupt 2 | `PCINT2_vect`|  | Interrupt enable<br>Select pins | <br> | <br> |
+| **Function name** | **Function parameters** | **Description** | **Example** |
+   | :-- | :-- | :-- | :-- |
+   | `lcd_init` | `LCD_DISP_OFF`<br>`LCD_DISP_ON`<br>`LCD_DISP_ON_CURSOR`<br>`LCD_DISP_ON_CURSOR_BLINK` | Display off&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp; | `lcd_init(LCD_DISP_OFF);`<br>&nbsp;<br>&nbsp;<br>&nbsp; |
+   | `lcd_clrscr` |  |Clear display and set cursor to home position.  | `lcd_clrscr();` |
+   | `lcd_gotoxy` | <br>x	horizontal position(0: left most position)<br> y	vertical position(0: first line) |Set cursor to specified position.  | `lcd_gotoxy(uint8_t x,uint8_t y);`|
+   | `lcd_putc` | | | |
+   | `lcd_puts` | | | |
+   | `lcd_command` | | | |
+   | `lcd_data` | | | |
