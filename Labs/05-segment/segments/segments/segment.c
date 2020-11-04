@@ -39,7 +39,7 @@ uint8_t segment_position[] = {
 	0b00010000,   // Position 0
 	0b00100000,   // Position 1
 	0b01000000,	  // Position 2
-    0b10000000};  // Position 3
+        0b10000000};  // Position 3
 
 /* Function definitions ----------------------------------------------*/
 void SEG_init(void)
@@ -55,7 +55,7 @@ void SEG_update_shift_regs(uint8_t segments, uint8_t position)
 {
 	uint8_t bit_number;
 	segments = segment_value[segments];     
-	position = segment_position[position];  // 0, 1, 2, 3
+	position = segment_position[position];  
 
 	
 	GPIO_write_low(&PORTD, SEGMENT_LATCH);
@@ -81,16 +81,13 @@ void SEG_update_shift_regs(uint8_t segments, uint8_t position)
 		// Wait 1 us
 		_delay_us(1);
 		
-		
 		GPIO_write_high(&PORTD, SEGMENT_CLK); // Pull CLK high
 
 		// Wait 1 us
 		_delay_us(1);
-		
-		
+				
 		GPIO_write_low(&PORTD, SEGMENT_CLK); // Pull CLK low
-		
-		
+			
 		segments = segments >> 1; 
 	}
 
@@ -109,17 +106,14 @@ void SEG_update_shift_regs(uint8_t segments, uint8_t position)
 
 		// Wait 1 us
 		_delay_us(1);
-
 		
 		GPIO_write_high(&PORTD, SEGMENT_CLK); // Pull CLK high
 
 		// Wait 1 us
 		_delay_us(1);
 
-		
 		GPIO_write_low(&PORTD, SEGMENT_CLK);// Pull CLK low
 
-		
 		position = position >> 1; // Shift position
 	}
 
