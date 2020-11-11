@@ -1,6 +1,6 @@
 # Lab 7: ADC and UART serial communication
 
-<img src = >
+<img src = https://raw.githubusercontent.com/Vojvyp/Digital-electronics-2/master/Labs/07-uart/pictures/pushbuttons.png >
 
 
  | **Push button** | **PC0[A0] voltage** | **ADC value (calculated)** | **ADC value (measured)** |
