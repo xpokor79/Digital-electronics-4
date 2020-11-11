@@ -13,7 +13,13 @@
    | none   |  5 V    | 1023 |  |
    
    
-   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+
    
    | **Operation** | **Register(s)** | **Bit(s)** | **Description** |
    | :-: | :-- | :-- | :-- |
