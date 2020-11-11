@@ -11,3 +11,18 @@
    | Left   | 1.970 V | 403 |  |
    | Select | 3.182 V | 651 |  |
    | none   |  5 V    | 1023 |  |
+   
+   
+   
+   
+   | **Operation** | **Register(s)** | **Bit(s)** | **Description** |
+   | :-: | :-- | :-- | :-- |
+   | Voltage reference | ADMUX | REFS1:0 | 01: AVcc voltage reference, 5V |
+   | Input channel |  | MUX3:0 | 0000: ADC0, 0001: ADC1, ... |
+   | ADC enable | ADCSRA |  |  |
+   | Start conversion |  |  |  |
+   | ADC interrupt enable |  |  |  |
+   | ADC clock prescaler |  | ADPS2:0 | 000: Division factor 2, 001: 2, 010: 4, ...|
+   | ADC result |  |  |  |
+
+
