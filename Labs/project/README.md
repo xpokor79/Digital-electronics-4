@@ -1,1 +1,26 @@
-# Digital-electronics-2
+# R-2R ladder Digital to Analog Converter (DAC)
+Vojtěch Vyplel; Aleš Pokorný
+
+### Project objectives
+
+*Write your text here*
+
+
+## Hardware description
+
+*Write your text here*
+
+
+## Code description and simulations
+
+*Write your text here*
+
+
+## Video/Animation
+
+*Write your text here*
+
+
+## References
+
+*Write your text here*
