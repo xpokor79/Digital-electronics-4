@@ -102,9 +102,30 @@ ISR(ADC_vect)
 {
     // WRITE YOUR CODE HERE
     uint16_t value = ADC;
-    char lcd_string[4] = "    ";
+    char lcd_string[8] = "        ";
 
-       
+   
+     //calculation  parity
+     uint8_t parBit = 0;
+     uint8_t parVal = 0;
+     
+     for (uint8_t i = 0; i < 16; i++) // passing through the whole variable: value
+     {
+	     parBit^= (value & 1);        // XOR 
+	     value>>= 1;				  // bit shift 
+     }
+	 
+	 if (parBit==1)  
+	 {
+		 parVal = 1;
+	 } 
+	 else
+	 {
+		 parVal = 0;
+	 }
+     
+     
+	   
     
     // Clear dec and hex position
     lcd_gotoxy(8, 0);           
@@ -126,7 +147,7 @@ ISR(ADC_vect)
     lcd_gotoxy(8, 1);
     
 	// Print key	
-    if (value > 1016)
+    if (value == 1022)
     {
         lcd_puts("None");
     } 
@@ -161,6 +182,9 @@ ISR(ADC_vect)
 			 }
 		 }
 	 }
+	 
+	 
+	 
  }	
 		
 		
