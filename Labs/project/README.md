@@ -38,6 +38,13 @@ Pro náš převodník jsme jako zálkadní rozsah hodnot rezistorů zvolili hodn
 | 7 | 1026 |1952 |
 
 
+&nbsp;
+
+&nbsp;
+
+Rozlišení pro náš převodník je:
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn.gif">
+
 
 
 
