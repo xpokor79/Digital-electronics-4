@@ -47,6 +47,7 @@ Rozlišení pro náš převodník je:
 
 &nbsp;
 <img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn.gif">
+&nbsp;
 <img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn2.gif">
 
 
