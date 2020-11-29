@@ -37,6 +37,14 @@ Pro náš převodník jsme jako zálkadní rozsah hodnot rezistorů zvolili hodn
 | 6 | 986 | 2025|
 | 7 | 1026 |1952 |
 
+&nbsp;
+
+&nbsp;
+Schéma zapojení reálného převodníku
+&nbsp;
+
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/dacsim.png">
 
 &nbsp;
 
