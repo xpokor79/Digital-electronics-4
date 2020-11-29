@@ -9,6 +9,9 @@ Základem našeho generátoru funkcí bude mikroprocesor atmega328p a D/A převo
 #### R2R D/A převodník
 U tohoto typu převodníku se vstupní bitstream převádí na výstupní napětí pomocí rezistorové sítě. Převodník podle hodnoty bitstreamu přiřazuje jednotlivým odporovým sítím napětí 0V nebo Vref. Výstupní napětí je poté rovno součtem všech napětí na jednotlivých rezistorových sítích. Jednotlivé hodnoty rezitorů se stanovují pomocí 
 Theveninova modelu a pravidla 2R 2
+
+&nbsp;
+
 &nbsp;
 
 <img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/bitteor.png">
@@ -17,9 +20,7 @@ Theveninova modelu a pravidla 2R 2
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
+Pro náš převodník jsme jako zálkadní rozsah hodnot rezistorů zvolili hodnoty RA = 1000 ohm RB = 2000 ohm. Vypočítané hodnoty pro jednotlivé rezistory v síti jsou uvedeny v tabulce.
 
 &nbsp;
 
