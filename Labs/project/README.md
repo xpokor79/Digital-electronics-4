@@ -6,7 +6,8 @@ Naprogramovat generátor funkcí v rozsahu frekvencí 10Hz - 10kHz s průběhy: 
 
 ## Hardware description
 Základem našeho generátoru funkcí bude mikroprocesor atmega328p a D/A převodík typu R2R postavený z odporové sítě.
-# R2R D/A převodník
+#### R2R D/A převodník
+
 
 
 
