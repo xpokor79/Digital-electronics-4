@@ -12,7 +12,7 @@ Základem našeho generátoru funkcí bude mikroprocesor atmega328p a D/A převo
 
 
 ## Code description and simulations
-Zkouška vidíš tento text
+
 *Write your text here*
 
 
