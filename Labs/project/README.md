@@ -13,6 +13,7 @@ U tohoto typu převodníku se vstupní bitstream převádí na výstupní napět
 
 
 
+
 | **bit** | **Rax [ohm]** |**Rbx [ohm]** |
 | :-: | :-: |:-: | 
 | 0 | 2076 |1953 |  
