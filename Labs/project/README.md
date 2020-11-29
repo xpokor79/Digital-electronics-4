@@ -43,7 +43,11 @@ Pro náš převodník jsme jako zálkadní rozsah hodnot rezistorů zvolili hodn
 &nbsp;
 
 Rozlišení pro náš převodník je:
+&nbsp;
+
+&nbsp;
 <img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn.gif">
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn2.gif">
 
 
 
