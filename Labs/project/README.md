@@ -32,6 +32,8 @@ Nejmenší napětí které můžeme převodníkem vytvořit je dáno rovnicí:
 &nbsp;
 Maximální napětí je: 5V - 0.019V = 4.9804V
 &nbsp;
+
+&nbsp;
 Teoretické schema
 &nbsp;
 
