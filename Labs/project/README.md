@@ -30,6 +30,7 @@ Nejmenší napětí které můžeme převodníkem vytvořit je dáno rovnicí:
 &nbsp;
 <img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn2.gif">
 &nbsp;
+
 Maximální napětí je: 5V - 0.019V = 4.9804V
 &nbsp;
 
