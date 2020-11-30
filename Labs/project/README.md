@@ -10,6 +10,12 @@ Základem našeho generátoru funkcí bude mikroprocesor atmega328p a D/A převo
 U tohoto typu převodníku se vstupní bitstream převádí na výstupní napětí pomocí rezistorové sítě. Převodník podle hodnoty bitstreamu přiřazuje jednotlivým odporovým sítím napětí 0V nebo Vref. Výstupní napětí je poté rovno součtem všech napětí na jednotlivých rezistorových sítích. Jednotlivé hodnoty rezitorů se stanovují pomocí 
 pravidla R2R, zálkadní rozsah hodnot rezistorů zvolili hodnoty RA = 1000 ohm RB = 2000 ohm.. Jako referenční napětí je stanoveno plné napětí na výstupu z mikroprocesoru tj. 5V. Výstupní napětí z převodníku je lineárně závislé na vstupních datech. 
 
+&nbsp;
+Výstupní napětí můžeme vypočítat podle rovnice:
+&nbsp;
+
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn3.gif">
+
 
 
 &nbsp;
