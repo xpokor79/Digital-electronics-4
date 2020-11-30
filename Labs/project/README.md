@@ -8,7 +8,7 @@ Naprogramovat generátor funkcí v rozsahu frekvencí 10Hz - 10kHz s průběhy: 
 Základem našeho generátoru funkcí bude mikroprocesor atmega328p a D/A převodík typu R2R postavený z odporové sítě.
 #### R2R D/A převodník
 U tohoto typu převodníku se vstupní bitstream převádí na výstupní napětí pomocí rezistorové sítě. Převodník podle hodnoty bitstreamu přiřazuje jednotlivým odporovým sítím napětí 0V nebo Vref. Výstupní napětí je poté rovno součtem všech napětí na jednotlivých rezistorových sítích. Jednotlivé hodnoty rezitorů se stanovují pomocí 
-Theveninova modelu a pravidla 2R 2
+Theveninova modelu a pravidla R2R. Jako referenční napětí je stanoveno plné napětí na výstupu z mikroprocesoru tj. 5V
 
 &nbsp;
 
@@ -37,13 +37,26 @@ Pro náš převodník jsme jako zálkadní rozsah hodnot rezistorů zvolili hodn
 | 6 | 986 | 2025|
 | 7 | 1026 |1952 |
 
+&nbsp;
+
+&nbsp;
+Schéma zapojení reálného převodníku
+&nbsp;
+
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/dacsim.png">
 
 &nbsp;
 
 &nbsp;
 
 Rozlišení pro náš převodník je:
+&nbsp;
+
+&nbsp;
 <img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn.gif">
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn2.gif">
 
 
 
