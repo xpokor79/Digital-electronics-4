@@ -16,7 +16,19 @@ Výstupní napětí můžeme vypočítat podle rovnice:
 
 <img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn3.gif">
 
+&nbsp;
+Kde Vbit = 0/5 v závislosti na bit = 0/1
+&nbsp;
 
+Nejmenší napětí které můžeme převodníkem vytvořit je dáno rovnicí:
+&nbsp;
+
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn.gif">
+&nbsp;
+&nbsp;
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn2.gif">
+&nbsp;
 
 &nbsp;
 Teoretické schema
@@ -36,15 +48,6 @@ Schéma zapojení reálného převodníku
 &nbsp;
 
 &nbsp;
-
-Rozlišení pro náš převodník je:
-&nbsp;
-
-&nbsp;
-<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn.gif">
-&nbsp;
-
-<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn2.gif">
 
 
 
