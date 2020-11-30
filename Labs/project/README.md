@@ -14,7 +14,7 @@ pravidla R2R, zálkadní rozsah hodnot rezistorů zvolili hodnoty RA = 1000 ohm 
 Výstupní napětí můžeme vypočítat podle rovnice:
 &nbsp;
 
-<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn3.gif">
+<img src = "https://github.com/Vojvyp/Digital-electronics-2/blob/master/Labs/project/pictures/CodeCogsEqn4.gif">
 
 &nbsp;
 Kde Vbit = 0/5 v závislosti na bit = 0/1. 
